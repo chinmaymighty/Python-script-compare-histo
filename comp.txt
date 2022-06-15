@@ -1,0 +1,66 @@
+Task: Parsing java_pid48008.hprof
+[Task: Parsing /Users/rchinmay/Documents/java_pid48008.hprof
+[
+Subtask: Scanning /Users/rchinmay/Documents/java_pid48008.hprof
+[.
+[INFO] Detected compressed references, because with uncompressed 64-bit references the array at 0x7c2661d90 would overlap the array at 0x7c2661d78
+[....................
+[INFO] Wrote threads call stacks to /Users/rchinmay/Documents/java_pid48008.threads
+[....................
+[INFO] Heap /Users/rchinmay/Documents/java_pid48008.hprof contains 31,173,249 objects
+[....................
+Subtask: Extracting objects from /Users/rchinmay/Documents/java_pid48008.hprof
+[................................................................................Task: Removing unreachable objects
+[
+Subtask: Searching for unreachable objects
+[
+Subtask: Marking reachable objects
+[.
+Subtask: Re-indexing objects
+[.
+[INFO] Removed 89 unreachable objects using 3,000 bytes
+[..
+Subtask: Re-indexing classes
+[...
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.idx.index
+[....
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.o2c.index
+[.....
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.a2s.index
+[......
+Subtask: Re-indexing outbound index
+[.......
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.inbound.index
+[........
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.outbound.index
+[.........
+Subtask: Writing /Users/rchinmay/Documents/java_pid48008.o2hprof.index
+[.........Task: Calculating Dominator Tree
+[
+Subtask: Dominator Tree calculation
+[
+Subtask: Depth-first search
+[....................
+Subtask: Computing dominators
+[..............................................
+Subtask: Calculate retained sizes
+[............................................................
+Subtask: Create dominators index file
+[................................................................................]
+
+Subtask: Single Query
+[
+Subtask: Test 'Query Command' of section 'Single Query'
+[Enter the absolute path to heap_dump (inside ''): ('Length: ', 449)
+Enter the baseline file path (inside ''): Baseline: 
+{}
+Enter the number of top classes to compare: (1, 'th largest class by size in given hprof is: ', ['User2', '15575957', '249215312'], '. Its baseline usage was: ', (0, 0))
+(2, 'th largest class by size in given hprof is: ', ['User', '15575631', '249210096'], '. Its baseline usage was: ', (0, 0))
+(3, 'th largest class by size in given hprof is: ', ['java.lang.Object[]', '876', '124694096'], '. Its baseline usage was: ', (0, 0))
+(4, 'th largest class by size in given hprof is: ', ['byte[]', '6818', '319616'], '. Its baseline usage was: ', (0, 0))
+(5, 'th largest class by size in given hprof is: ', ['java.lang.String', '6736', '161664'], '. Its baseline usage was: ', (0, 0))
+(6, 'th largest class by size in given hprof is: ', ['char[]', '6', '33016'], '. Its baseline usage was: ', (0, 0))
+(7, 'th largest class by size in given hprof is: ', ['java.util.HashMap$Node', '999', '31968'], '. Its baseline usage was: ', (0, 0))
+(8, 'th largest class by size in given hprof is: ', ['java.util.concurrent.ConcurrentHashMap$Node', '910', '29120'], '. Its baseline usage was: ', (0, 0))
+(9, 'th largest class by size in given hprof is: ', ['int[]', '463', '28384'], '. Its baseline usage was: ', (0, 0))
+(10, 'th largest class by size in given hprof is: ', ['java.util.HashMap$Node[]', '257', '23952'], '. Its baseline usage was: ', (0, 0))
